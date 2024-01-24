@@ -9,8 +9,10 @@ function App() {
 
 
   useEffect(()=>{
-      if(count === 10) // para pintar el log solo cuando tiene 10 tareas
-        console.log("llego a los 10 tareas");
+      if(count === 10){ // para pintar el log solo cuando tiene 10 tareas
+        console.log("llego a las 10 tareas");
+        alert("llego a las 10 tareas");
+      }
   }, [count])
 
 
